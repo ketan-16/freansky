@@ -5,7 +5,20 @@ footer{
 
 @media (max-height:800px){
 	footer { position: static; }
-	header { padding-bottom:40px; }
+	header { padding-bottom:0px; }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.footer-headings {
+  margin: 0;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Cabin", serif;
 }
 
 
@@ -15,7 +28,7 @@ footer{
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-	padding: 50px 50px 60px 50px;
+	padding: 40px 50px 15px 50px;
 	margin-top: 80px;
 }
 
@@ -34,7 +47,7 @@ footer{
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font: normal 36px, cursive;
 	margin: 0;
 }
 
@@ -45,7 +58,7 @@ footer{
 }
 
 .footer-distributed h3 span{
-	color:  #e0ac1c;
+	color:  #ffffff;
 }
 
 /* Footer links */
@@ -72,7 +85,7 @@ footer{
 /* Footer Center */
 
 .footer-distributed .footer-center{
-	width: 35%;
+	width: 15%;
 }
 
 
@@ -109,7 +122,8 @@ footer{
 }
 
 .footer-distributed .footer-center p a{
-	color:  #e0ac1c;
+	color: #ffffff;
+	padding:5px 0px 5px 0px;
 	text-decoration: none;;
 }
 
@@ -117,7 +131,7 @@ footer{
 /* Footer Right */
 
 .footer-distributed .footer-right{
-	width: 30%;
+	width: 50%;
 }
 
 .footer-distributed .footer-company-about{

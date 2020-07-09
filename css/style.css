@@ -12,7 +12,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  color: #e53935;
+  color: #225EA2;
   font-weight: 400;
   font-family: "Lora", serif;
 }
@@ -51,6 +51,10 @@ button:focus,
 textarea:focus {
   outline: none;
 }
+
+.logo-header{
+  padding-top:10px;
+}
 a:hover,
 a:focus {
   text-decoration: none;
@@ -72,7 +76,7 @@ ol {
 }
 .section-title span {
   font-size: 14px;
-  color: #e53935;
+  color: #225EA2;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -118,7 +122,7 @@ ol {
   bottom: -5px;
   width: 100%;
   height: 2px;
-  background: #e53935;
+  background: #225EA2;
   content: "";
 }
 
@@ -162,7 +166,7 @@ ol {
   display: none;
 }
 .top-nav .tn-left li i {
-  color: #e53935;
+  color: #225EA2;
   margin-right: 4px;
 }
 .top-nav .tn-right {
@@ -184,7 +188,7 @@ ol {
   font-size: 13px;
   font-weight: 700;
   padding: 16px 28px 15px;
-  background: #e53935;
+  background: #225EA2;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -244,7 +248,7 @@ ol {
   transition: all 0.3s;
 }
 .top-nav .tn-right .language-option .flag-dropdown ul li a:hover {
-  color: #e53935;
+  color: #225EA2;
 }
 .menu-item {
   position: relative;
@@ -298,7 +302,7 @@ ol {
   top: 52px;
   width: 100%;
   height: 2px;
-  background: #e53935;
+  background: #225EA2;
   content: "";
   opacity: 0;
   -webkit-transition: all 0.3s;
@@ -335,7 +339,7 @@ ol {
   transition: all 0.3s;
 }
 .menu-item .nav-menu .mainmenu li .dropdown li a:hover {
-  color: #e53935;
+  color: #225EA2;
 }
 .menu-item .nav-menu .mainmenu li .dropdown li a:after {
   display: none;
@@ -516,14 +520,14 @@ ol {
     ul
     li
     a:hover {
-    color: #e53935;
+    color: #225EA2;
   }
   .offcanvas-menu-wrapper .header-configure-area .bk-btn {
     display: inline-block;
     font-size: 13px;
     font-weight: 700;
     padding: 16px 28px 15px;
-    background: #e53935;
+    background: #225EA2;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -564,7 +568,7 @@ ol {
   .offcanvas-menu-wrapper .slicknav_menu .slicknav_nav ul li a:hover {
     border-radius: 0;
     background: transparent;
-    color: #e53935;
+    color: #225EA2;
   }
   .offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row a {
     border-bottom: 0;
@@ -580,14 +584,14 @@ ol {
     transition: all 0.3s;
   }
   .offcanvas-menu-wrapper .slicknav_menu .slicknav_nav .slicknav_row:hover a {
-    color: #e53935;
+    color: #225EA2;
   }
   .offcanvas-menu-wrapper
     .slicknav_menu
     .slicknav_nav
     .slicknav_row:hover
     span {
-    color: #e53935;
+    color: #225EA2;
   }
   .offcanvas-menu-wrapper .top-social {
     display: inline-block;
@@ -611,7 +615,7 @@ ol {
     line-height: 28px;
   }
   .offcanvas-menu-wrapper .top-widget li i {
-    color: #e53935;
+    color: #225EA2;
     margin-right: 4px;
   }
   .offcanvas-menu-wrapper.show-offcanvas-menu-wrapper {

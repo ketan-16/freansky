@@ -3,45 +3,38 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="description" content="Sona Template" />
-  <meta name="keywords" content="Sona, unica, creative, html" />
+  <meta name="description" content="Freansky>
+    <meta name=" keywords" content="Freansky, IT Solutions" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Frenasky</title>
-  <!-- Google Font -->
+  <title>Freansky</title>
+
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap" rel="stylesheet" />
-
-  <!-- Css Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 			
+  
   <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
-  <link rel="stylesheet" href="css/flaticon.css" type="text/css" />
-  <link rel="stylesheet" href="css/floating-buttons.css" type="text/css" />
-  <link rel="stylesheet" href="css/footer.css" type="text/css" />
-  <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
   <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="css/footer.css" type="text/css" />
+  <link rel="stylesheet" href="css/banner.css">
+  <link rel="stylesheet" href="css/floating-buttons.css" type="text/css" />
 </head>
 
 <body>
-  <!-- Page Preloder -->
-  <!-- <div id="preloder">
-      <div class="loader"></div>
-    </div> -->
-
   <!-- Offcanvas Menu Section Begin -->
   <div class="offcanvas-menu-overlay"></div>
   <div class="canvas-open">
-    <i class="icon_menu"></i>
+    <i class="fa fa-bars"></i>
   </div>
   <div class="offcanvas-menu-wrapper">
     <div class="canvas-close">
-      <i class="icon_close"></i>
+      <i class="fa fa-times"></i>
     </div>
 
     <div class="header-configure-area">
       <div class="language-option">
-        <img src="img/flag.jpg" alt="" />
+        <img src="img/flag.png" alt="" />
         <span>US <i class="fa fa-angle-down"></i></span>
         <div class="flag-dropdown">
           <ul>
@@ -52,14 +45,26 @@
       </div>
     </div>
     <div class="search-icon search-switch">
-      <input type="email" class="form-control" placeholder="Search...">
+      <div class="searchM">
+        <div>
+          <input type="text" placeholder="Search . . ." required />
+        </div>
+      </div>
     </div>
-    <nav class="mainmenu mobile-menu">
-      <ul>
-        <li class="active"><a href="./index.html">Home</a></li>
+    <nav id="sidebar" class="sidenav">
+      <ul class="list-unstyled components" style="
+            float: left;
+            width: 100%;
+            text-align: justify;
+            padding-left: 20px;
+          ">
         <li>
-          <a href="./pages.html">Expertise</a>
-          <ul class="dropdown">
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Expertise <i
+              class="fa fa-angle-down dropdownIcon"></i></a>
+          <ul class="collapse SubMenu" id="homeSubmenu">
             <li><a href="#">Web Apps</a></li>
             <li><a href="#">Logo Design</a></li>
             <li><a href="#">Website Design</a></li>
@@ -72,23 +77,28 @@
             <li><a href="#">PHP</a></li>
           </ul>
         </li>
-        <li><a href="./blog.html">Training</a></li>
         <li>
-          <a href="./pages.html">Company</a>
-          <ul class="dropdown">
+          <a href="#">Training</a>
+        </li>
+        <li>
+          <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Company<i
+              class="fa fa-angle-down dropdownIcon"></i></a>
+          <ul class="collapse SubMenu" id="pageSubmenu">
             <li><a href="#">Career</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Vision/Mission</a></li>
           </ul>
         </li>
-        <li><a href="./contact.html">About Us</a></li>
+        <li>
+          <a href="#">About Us</a>
+        </li>
       </ul>
     </nav>
     <div id="mobile-menu-wrap"></div>
     <div class="top-social">
       <a href="#"><i class="fa fa-facebook"></i></a>
       <a href="#"><i class="fa fa-twitter"></i></a>
-      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
     </div>
     <ul class="top-widget">
       <li><i class="fa fa-phone"></i> +1 510 953 8400</li>
@@ -112,7 +122,7 @@
               <div class="top-social">
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
               </div>
               <a href="#" class="bk-btn">Consumer support</a>
               <div class="language-option">
@@ -133,38 +143,53 @@
     <div class="menu-item">
       <div class="container">
         <div class="row">
-          <div class="col-lg-2">
+          <div class="col-lg-3">
             <div class="logo">
               <a href="./index.html">
-                <img class="logo-header" src="img/logo.png" alt="Freansky" />
+                <img src="img/logo.png" height="35px" style="width:auto;" alt="Freansky" />
               </a>
             </div>
           </div>
-          <div class="col-lg-10">
+          <div class="col-lg-9" style="height: auto !important;">
             <div class="nav-menu">
               <nav class="mainmenu">
                 <ul>
-                  <li class="active"><a href="./index.html">Home</a></li>
+                  <li class="active">
+                    <a href="./index.html" class="navlink">Home</a>
+                  </li>
 
                   <li>
-                    <a href="#">Expertise</a>
+                    <a href="#" class="navlink">Expertise</a>
 
-                    <ul class="dropdown">
-                      <li><a href="#">Web Apps</a></li>
-                      <li><a href="#">Logo Design</a></li>
-                      <li><a href="#">Website Design</a></li>
-                      <li><a href="#">App Design</a></li>
-                      <li><a href="#">Python</a></li>
-                      <li><a href="#">Java</a></li>
-                      <li><a href="#">Swift</a></li>
-                      <li><a href="#">Angular</a></li>
-                      <li><a href="#">Full Stack</a></li>
-                      <li><a href="#">PHP</a></li>
+                    <ul class="dropdown" style="
+                          display: flex;
+                          justify-content: space-evenly;
+                          position: fixed;
+                          width: auto;
+                          top: auto;
+                          left: auto;
+                        ">
+                      <div>
+                        <li><a href="#">Web Apps</a></li>
+                        <li><a href="#">Logo Design</a></li>
+                        <li><a href="#">Website Design</a></li>
+                        <li><a href="#">App Design</a></li>
+                      </div>
+                      <div>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Java</a></li>
+                        <li><a href="#">Swift</a></li>
+                      </div>
+                      <div>
+                        <li><a href="#">Angular</a></li>
+                        <li><a href="#">Full Stack</a></li>
+                        <li><a href="#">PHP</a></li>
+                      </div>
                     </ul>
                   </li>
-                  <li><a href="#">Training</a></li>
+                  <li><a href="#" class="navlink">Training</a></li>
                   <li>
-                    <a href="#">Company</a>
+                    <a href="#" class="navlink">Company</a>
 
                     <ul class="dropdown">
                       <li><a href="#">Career</a></li>
@@ -172,11 +197,17 @@
                       <li><a href="#">Vision/Mission</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">About Us</a></li>
+                  <li><a href="#" class="navlink">About Us</a></li>
                 </ul>
               </nav>
               <div class="nav-right search-switch">
-                <input type="email" class="form-control" placeholder="Search...">
+                <div class="flexbox">
+                  <div class="search">
+                    <div>
+                      <input type="text" placeholder="Search . . ." required />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -187,68 +218,91 @@
   <!-- Header End -->
 
   <!-- Body-->
-    <div><P> test</P><P> test</P><P> test</P><P> test</P><P> test</P><P> test</P><P> test</P><P> test</P></div> 
+  <!-- Banner -->
+  <section class="banner-area" id="home">
+    <!-- Start Header Area -->
+    <!-- End Header Area -->				
+      <div class="container">
+        <div class="row justify-content-end fullscreen align-items-center">
+          <div class="col-lg-6 col-md-12 banner-left">
+              <h1 class="banner-text banner-h1">
+                IT Solutions <br>
+                Simplified.						
+              </h1>
+              <p class="mx-auto p-text  mt-20 mb-40">
+                We build Apps, Web-Applications and APIs. Top class service, all over the world.
+              </p>
+              <a href="#" class="text-uppercase header-btn">Get in touch</span></a>
+          </div>
+          <div class="col-lg-6 col-md-12 no-padding banner-right">
+            <img class="img-fluid" src="img/header-img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Banner End-->
   <!-- Body Ends-->
 
   <!-- Floating Buttons Start -->
   <ul id="social_side_links">
-    <li><a style="background-color: #3c5a96;" href="https://facebook.com" target="_blank"><img
-          src="https://www.dropbox.com/s/xk5pdj8nks1ymdh/facebook-icon.png?raw=1" alt="" /></a></li>
-    <li><a style="background-color: #1dadeb;" href="https://twitter.com" target="_blank"><img
-          src="https://www.dropbox.com/s/c8in3qcf1uqsqrb/twitter-icon.png?raw=1" alt="" /></a></li>
-    <li><a style="background-color: #1178b3;" href="https://linkedin.com" target="_blank"><img
-          src="https://www.dropbox.com/s/pb0a0p7p1pwprue/linkedin-icon.png?raw=1" alt="" /></a></li>
+    <li>
+      <a style="background-color: #3c5a96;" href="https://facebook.com" target="_blank"><img
+          src="https://www.dropbox.com/s/xk5pdj8nks1ymdh/facebook-icon.png?raw=1" alt="" /></a>
+    </li>
+    <li>
+      <a style="background-color: #1dadeb;" href="https://twitter.com" target="_blank"><img
+          src="https://www.dropbox.com/s/c8in3qcf1uqsqrb/twitter-icon.png?raw=1" alt="" /></a>
+    </li>
+    <li>
+      <a style="background-color: #1178b3;" href="https://linkedin.com" target="_blank"><img
+          src="https://www.dropbox.com/s/pb0a0p7p1pwprue/linkedin-icon.png?raw=1" alt="" /></a>
+    </li>
   </ul>
 
   <footer class="footer-distributed">
-
     <div class="footer-left">
       <h4 class="footer-headings">About Us</h4>
-      <hr noshade>
+      <hr noshade />
       <p class="footer-text">Test this company is a great company</p>
       <p class="footer-links">
         <a href="#">More>></a>
-      <hr noshade>
+      </p>
+
+      <hr noshade />
       <h4 class="footer-headings">frenasky@gmail.com</h4>
       <!-- <p class="footer-company-name">© 2019 Eduonix Learning Solutions Pvt. Ltd.</p> -->
     </div>
 
     <div class="footer-center">
       <h4 class="footer-headings">Support</h4>
-      <hr noshade>
+      <hr noshade />
       <p class="footer-links">
-        <a class="footer-support" href="#">Home</a><br>
-        <a class="footer-support" href="#">Expertise</a><br>
-        <a class="footer-support" href="#">Training</a><br>
-        <a class="footer-support" href="#">Company</a><br>
+        <a class="footer-support" href="#">Home</a><br />
+        <a class="footer-support" href="#">Expertise</a><br />
+        <a class="footer-support" href="#">Training</a><br />
+        <a class="footer-support" href="#">Company</a><br />
         <a class="footer-support" href="#">About Us</a>
+      </p>
     </div>
+
     <div class="footer-right">
-      <p class="footer-company-about">
-        <h4 class="footer-headings">Support</h4>
-      <hr noshade>
-        <p> Contact us form goes here</p>
+      <p class="footer-company-about"></p>
+      <h4 class="footer-headings">Support</h4>
+      <hr noshade />
+      <p>Contact us form goes here</p>
       <div class="footer-icons">
         <a href="#"><i class="fa fa-facebook"></i></a>
         <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>        
       </div>
     </div>
   </footer>
 
-
-
   <!-- Floating Buttons End-->
+
   <!-- Js Plugins -->
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/jquery.nice-select.min.js"></script>
-  <script src="js/jquery-ui.min.js"></script>
-  <script src="js/jquery.slicknav.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
